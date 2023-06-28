@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="”X-UA-Compatible”" />
+    <link rel="stylesheet" href="/homepage/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Playfair Display"
+      href="https://fonts.googleapis.com/css?family=Assistant"
+    />
+    <title>Contact - Hampton Concierge Aesthetics</title>
+  </head>
+
+  <body>
+    <header>
+      <!-- Navigation Menu -->
+      <div>
+        <h1 class="header">Hampton Concierge Esthetics</h1>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+            <li class="nav__item">
+              <a
+                href="www.hamptonconciergeesthetics.com/testimonials"
+                class="nav__link"
+                >Testimonials</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="www.hamptonconciergeesthetics.com/about"
+                class="nav__link"
+                >About</a
+              >
+            </li>
+            <li class="nav__item">
+              <a
+                href="www.hamptonconciergeesthetics.com/schedule"
+                class="nav__link"
+                >Schedule</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <div class="search-icon">
+          <img src="schedule-img/magnifying-glass.png" alt="magnifying-glass" />
+        </div>
+      </div>
+    </header>
+
+    <!--Contact Section-->
+    <div class="contact-header">
+      <h1>Contact Form</h1>
+    </div>
+    <div class="fcf-body">
+      <div id="fcf-form">
+        <h3 class="fcf-h3">Contact us</h3>
+
+        <form
+          id="fcf-form-id"
+          class="fcf-form-class"
+          method="post"
+          action="contact-form-process.php"
+        >
+          <div class="fcf-form-group">
+            <label for="Name" class="fcf-label"></label>
+            <div class="fcf-input-group">
+              <input
+                type="text"
+                placeholder="Name"
+                id="Name"
+                name="Name"
+                class="fcf-form-control"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label for="Email" class="fcf-label"></label>
+            <div class="fcf-input-group">
+              <input
+                type="email"
+                placeholder="Email*"
+                id="Email"
+                name="Email"
+                class="fcf-form-control"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label for="phone" class="fcf-label"></label>
+            <div class="fcf-input-group">
+              <textarea
+                id="phone"
+                placeholder="Phone Number"
+                name="phone"
+                class="fcf-form-control"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <label for="Message" class="fcf-label"></label>
+            <div class="fcf-input-group">
+              <textarea
+                id="Message"
+                name="Message"
+                placeholder="Message"
+                class="fcf-form-control"
+                rows="6"
+                maxlength="3000"
+                required
+              ></textarea>
+            </div>
+          </div>
+
+          <div class="fcf-form-group">
+            <button
+              type="submit"
+              id="fcf-button"
+              class="fcf-btn fcf-btn-primary fcf-btn-lg fcf-btn-block"
+            >
+              Send
+            </button>
+          </div>
+          </div>
+        </form>
+        </div>
+    </div>
+
+    <!--Footer Section-->
+    <footer>
+      <h3 class="quick-links">Quick Links</h3>
+      <a
+        href="www.hamptonconciergeesthetics.com/search"
+        class="footer__link__search"
+        >Search</a
+      >
+
+      <h3 class="info">Info</h3>
+      <a
+        href="www.hamptonconciergeesthetics.com/search"
+        class="footer__link__search"
+        >Search</a
+      >
+
+      <h3 class="our-mission">Our Mission</h3>
+      <p>
+        Provide the highest quality professional treatments, comfortably and
+        hassle-free.
+      </p>
+      <p>© 2023, Hampton Concierge Esthetics</p>
+    </footer>
+  </body>
+</html>
