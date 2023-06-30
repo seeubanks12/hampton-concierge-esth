@@ -1,7 +1,99 @@
-.header {
-font-family: Playfair Display, serif;
+
+
+.nav-item {
+  color: #9f692ebf !important;
 }
 
-.nav {
-    font-family: Assistant, serif;
-    }
+.navbar-brand {
+  font-family: Playfair Display, serif;
+  font-size: 24px;
+  margin-left: 40px;
+}
+
+.nav-item:hover {
+  text-decoration: underline;
+}
+
+nav {
+  font-family: Assistant, sans-serif;
+  font-size: 14px;
+}
+
+
+#home {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.intro-text {
+  position: absolute;
+  text-align: center;
+  left: 50%; /* horizontal alignment */
+  top: 70%; /* vertical alignment */
+  transform: translate(-50%, -50%); /* precise centering; see link below */
+}
+
+.full-width-img {
+  width: 100%;
+  filter: brightness(70%);
+}
+
+.section__title {
+  font-family: Playfair Display, serif;
+  font-size: 52px;
+}
+
+.section__subtitle {
+  font-family: Assisant, sans-serif;
+  color: #ffffffbf;
+  font-size: 16px;
+  word-spacing: 0.1rem;
+  letter-spacing: 0.05rem;
+  font-weight: 400;
+}
+
+.hero-image-learn-more {
+  cursor: pointer;
+  border: 1px solid white;
+  background-color: transparent;
+  height: 50px;
+  width: 150px;
+  color: white;
+  font-size: 16px;
+  font-family: Assistant, sans-serif;
+  letter-spacing: 0.05rem;
+}
+
+.services-subtitle {
+  color: #9f692ebf;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: Assistant, sans-serif;
+  font-size: 16px;
+}
+
+.section__title__services {
+  color: #9f692e;
+  font-family: Playfair Display, serif;
+  font-size: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
+}
+
+.services-icons {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.services {
+    color: #9f692e;
+    font-family: Playfair Display, serif;
+    font-size: 17px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
